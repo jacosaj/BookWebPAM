@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">BookWeb</string>
+    <string name="main_text">Witaj</string>
+    <string name="icon_book">Czytaj książki</string>
+
+    <string name="title">Book Web</string>
+    <string name="subtitle">Aplikacja do komentowania książek</string>
+    <string name="version">Wersja 1.1</string>
+
+    <string name="authors">Authors: Jacek Sajnóg</string>
+
+    <string name="actions_settings">Info</string>
+
+</resources>

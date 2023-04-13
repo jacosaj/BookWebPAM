@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="GreenText" parent=""></style>
+</resources>
+
+<!--    android:layout_margin="40sp"-->
+<!--    app:cardPreventCornerOverlap="true"-->
+<!--    app:contentPadding="10sp">-->
