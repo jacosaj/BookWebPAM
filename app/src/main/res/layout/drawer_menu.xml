@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <menu xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        tools:showIn="navigation_view">
+
+        <group android:checkableBehavior="single">
+            <item
+                android:id="@+id/nav_home"
+                android:icon="@drawable/baseline_book_24"
+                android:title="Home" />
+
+            <item
+                android:id="@+id/nav_dashboard"
+                android:icon="@drawable/baseline_menu_book_24"
+                android:title="Dashboard" />
+
+            <item
+                android:id="@+id/nav_notifications"
+                android:icon="@drawable/baseline_message_24"
+                android:title="Notifications" />
+        </group>
+
+        <item android:title="Submenu">
+            <menu>
+                <item
+                    android:id="@+id/nav_sub1"
+                    android:title="Submenu 1" />
+
+                <item
+                    android:id="@+id/nav_sub2"
+                    android:title="Submenu 2" />
+            </menu>
+        </item>
+
+        <item android:title="Logout">
+            <menu>
+                <item
+                    android:id="@+id/nav_logout"
+                    android:icon="@drawable/ic_logout"
+                    android:title="Logout" />
+            </menu>
+        </item>
+
+        <group android:checkableBehavior="none">
+            <item android:title="" android:enabled="false">
+                <shape android:shape="line">
+                    <stroke android:color="@color/grey" android:width="1dp" />
+                </shape>
+            </item>
+        </group>
+
+    </menu>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

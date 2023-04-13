@@ -9,4 +9,6 @@
     <color name="white">#FFFFFFFF</color>
     <color name="burgundy">#801751</color>
     <color name="green">#78d35c</color>
+
+    <color name="MyCardColor">#64b5f6</color>
 </resources>
